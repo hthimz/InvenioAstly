@@ -11,7 +11,7 @@ function cleanInlineStyles(props) {
   return transformer;
 
   function transformer(tree, file) {
-    console.log('------------Transformer_____CleanInLine-----tree',tree,file);
+    // console.log('------------Transformer_____CleanInLine-----tree',tree,file);
     file.data.styles = {};
     visit(tree, 'element', visitor);
     function visitor(node, index, parent) {
