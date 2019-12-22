@@ -1,6 +1,6 @@
 {
   "name": "playroom",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -29,7 +29,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@fabulas/astly": "*",
+    "@fabulas/astly": "^1.0.0",
     "@fabulas/themes": "^0.0.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
