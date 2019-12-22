@@ -1,0 +1,14 @@
+{
+  "command": {
+    "init": {
+      "exact": true
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["packages/*"],
+  "version": "independent",
+  "create": {
+    "license": "MIT"
+  }
+}
