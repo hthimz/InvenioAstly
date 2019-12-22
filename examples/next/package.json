@@ -1,6 +1,6 @@
 {
   "name": "next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "> TODO: description",
   "author": "Himanshu Tomar",
@@ -26,7 +26,7 @@
     "example": "yarn dev"
   },
   "dependencies": {
-    "@fabulas/astly": "^1.0.0",
+    "@fabulas/astly": "^1.0.1",
     "@fabulas/tests": "^0.1.0",
     "@fabulas/themes": "^0.0.6",
     "@zeit/next-sass": "^1.0.1",
