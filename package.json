@@ -1,5 +1,5 @@
-{"name" : "@invenio/astly",
-  "version": "0.1.1",
+{"name" : "eternalinvenio",
+  "version": "0.1.3",
   "workspaces": {
     "packages": [
       "packages/*",
@@ -25,6 +25,10 @@
       "**/prismic-dom",
       "**/prismic-dom/**"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hthimz/InvenioAstly"
   },
   "scripts": {
     "prettier": "prettier \"packages/**/{src,test,examples}/**/*.js\" --write",
